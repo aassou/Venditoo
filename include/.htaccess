@@ -1,0 +1,7 @@
+ErrorDocument 400 http://www.ninja.zz.mu/view/cont_filenotfound.php
+ErrorDocument 401 http://www.ninja.zz.mu/view/cont_filenotfound.php
+ErrorDocument 402 http://www.ninja.zz.mu/view/cont_filenotfound.php
+ErrorDocument 403 http://www.ninja.zz.mu/view/cont_filenotfound.php
+ErrorDocument 404 http://www.ninja.zz.mu/view/cont_filenotfound.php
+
+Options -Indexes

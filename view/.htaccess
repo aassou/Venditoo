@@ -1,0 +1,15 @@
+# 1 ---- Establish a custom 40X File not Found page ----
+
+ErrorDocument 404 http://www.ninja.zz.mu/view/cont_filenotfound.php
+ErrorDocument 403 http://www.ninja.zz.mu/view/cont_filenotfound.php
+
+# 2 ---- Prevent directory file listing in all of your folders ----
+
+Options -Indexes
+
+#config.php access deny
+<Files config.php>
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Files>
